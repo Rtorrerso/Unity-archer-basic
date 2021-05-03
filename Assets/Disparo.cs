@@ -27,10 +27,7 @@ public class Disparo : MonoBehaviour
         {
             FAnimator.CrossFadeInFixedTime("Shoot",0.1f);
             //FDisparo();
-           
-
-
-            
+              
         }
     }
 
@@ -42,10 +39,7 @@ public class Disparo : MonoBehaviour
             //var RBFlecha = Nflecha.GetComponent<Rigidbody>();
             var RBFlecha = Nflecha.GetComponent<Rigidbody>();
             RBFlecha.AddForce(0,0,vel*Time.deltaTime,ForceMode.Impulse);
-
-
-
-        
+    
     }
 
 }
